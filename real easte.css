@@ -197,6 +197,9 @@ body{
   .coun-down h2{
     font-size: 50px;
   }
+    .coun-down p{
+    font-size: 16px;
+  }
 }
 /*-----------end responsive 2nd section ------------*/
 
