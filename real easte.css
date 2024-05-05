@@ -96,6 +96,7 @@ body{
   justify-content: space-between;
   text-align: center;
   margin: auto;
+  margin-top: 50px;
 }
 
 .hero-section-button a {
@@ -153,52 +154,47 @@ body{
 }
 
 /*--------------------start 2nd setopm--------------*/
-
 .container-2nd{
   border-bottom: 1px solid #FFFFFF73;
 }
 
-.wrapper-2nd{
+.wrapper{
   width: 1140px;
-  height: 300px;
+  min-height: 250px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
   margin: auto;
- }
-
- .responsive{
-  display: flex;
-  width: 100%;
   justify-content: space-between;
-}
+  }
 
-.count-down h2{
-  font-size: 69px;
-  font-family: "Oswald", sans-serif;
-  color: #fff;
-}
+  .coun-down h2{
+    font-size: 69px;
+    color: #FFC6C8;
+    font-family: "Oswald", sans-serif;
+  }
 
-.count-down p{
-  font-size: 18px;
-  font-family: "Rubik", sans-serif;
-  color: #FFC6C8;
-}
-
+  .coun-down p{
+    font-size: 20px;
+    color: #FFC6C8;
+    font-family: "Rubik", sans-serif;
+  }
+  .res{
+    display: flex;
+   width: 100%;
+    margin: auto;
+    justify-content: space-around;
+  }
 
 /*---------------close 2nd section -------------*/
 /*-----------------2nd section responsive------------*/
 @media only screen and (max-width: 768px){
-
-
-  .wrapper-2nd{
+  .wrapper{
     width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 
-
-  .count-down h2{
+  .coun-down h2{
     font-size: 50px;
   }
 }
@@ -259,7 +255,7 @@ body{
 @media only screen and (max-width: 1380px){
 
   .container-3rd{
-    padding: 50px 0;
+    margin: 50px 0;
   }
 
   .company-title{
@@ -320,14 +316,15 @@ body{
 .container-4th{
   width: 100%;
   margin-bottom: 100px;
-  border: 1px solid #FFFFFF73;
+  border-top: 1px solid #FFFFFF73;
+  border-bottom: 1px solid #FFFFFF73;
   padding-bottom: 100px;
 }
 
 .company-offer{
   display: flex;
   text-align: center;
-  width: 1100px;
+  width: 1140px;
   padding: 20px 10px;
   border: 1px solid #FFFFFF73;
   margin: 100px auto 0 auto;
@@ -395,6 +392,11 @@ padding-right: 10px;
     flex-direction: column;
   }  
 
+  .container-4th{
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+
   .compnay-offer-details{
     width: 100%;
   }
@@ -411,6 +413,7 @@ padding-right: 10px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
   }  
 
   .compnay-offer-details{
@@ -545,4 +548,54 @@ align-items: center;
   text-decoration: none;
   display: inline-block;
   background: #FFC6C8;
+}
+
+/*--------------Responsive section 5th---------------------*/
+
+@media only screen and (max-width: 768px){
+
+  .container-5th{
+    width: 100%;
+    padding: 10px;
+  }
+
+  .company-details-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .company-featured-img {
+    width: 100%;
+  }
+  .company-featured-img img{
+    width: 100%;
+  }
+  .company-infor{
+    width: 100%;
+  }
+  .heading h2{
+    font-size: 40px;
+    padding: 0 0 30px 0;
+  }
+
+  .company-paragraph p{
+    text-align: justify;
+  }
+
+  .bath-bed{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .bath-bed .bath{
+    padding: 0 0 15px 0;
+  }
+
+  .bath-bed .bath:last-child{
+    padding: 0;
+  }
 }
