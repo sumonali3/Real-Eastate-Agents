@@ -575,6 +575,12 @@ padding-right: 10px;
     padding: 0 0 30px 0;
   }
 
+  .company-room-details {
+    padding: 10px 0 0 0;
+}
+
+
+
   .company-paragraph p {
     text-align: justify;
   }
