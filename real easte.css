@@ -25,7 +25,7 @@ body{
 .hero-section-container {
   width: 100%;
   height: 80vh;
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, .5);
   padding-top: 80px;
   position: relative;
   
@@ -360,7 +360,7 @@ body{
   font-size: 16px;
   font-family: "Rubik", sans-serif;
   color: #FFC6C8;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .listing{
@@ -427,163 +427,159 @@ padding-right: 10px;
 
 /*-----------section 5th start------------*/
 
-.container-5th{
+.container-5th {
   width: 1140px;
   margin: auto;
 }
 
-.heading h2{
+.heading h2 {
   font-size: 50px;
   font-family: "Oswald", sans-serif;
   font-weight: 600;
-  color: #FFC6C8;
+  color: #ffc6c8;
   padding-bottom: 30px;
 }
 
-.heading span{
-  color: #FFC6C8B0;
+.heading span {
+  color: #ffc6c8b0;
 }
 
-.company-details-info{
+.company-details-info {
   display: flex;
   width: 1140px;
-  border: 1px solid #FFFFFF73;
+  border: 1px solid #ffffff73;
   margin-bottom: 20px;
 }
 
-.company-featured-img{
+.company-featured-img {
   padding: 10px;
 }
 
-.company-featured-img img{
+.company-featured-img img {
   width: 95%;
   height: 70%;
   object-fit: cover;
 }
 
-.company-infor{
+.company-infor {
   padding: 10px;
 }
 
-.company-infor h3{
+.company-infor h3 {
   font-size: 16px;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
-  color: #FFC6C8;
+  color: #ffc6c8;
 }
 
-.heading-real h2{
+.heading-real h2 {
   font-size: 35px;
   font-family: "Oswald", sans-serif;
   font-weight: 600;
-  color: #FFC6C8;
+  color: #ffc6c8;
   padding: 10px 0;
   line-height: 1.3em;
 }
 
-.company-paragraph p{
+.company-paragraph p {
   font-size: 16px;
   font-family: "Rubik", sans-serif;
   font-weight: 400;
-  color: #FFC6C8;
+  color: #ffc6c8;
   padding: 10px 0;
   line-height: 1.3em;
 }
 
-.company-room-details{
+.company-room-details {
   display: flex;
   justify-content: space-between;
   text-align: start;
   align-items: center;
-    }
-
-    .company-room-details{
-      padding: 10px 50px 0 0;
-    }
-    .company-room-details .city h2{
-    font-size: 20px;
-   font-family: "Oswald", sans-serif;
-  font-weight: 600;
-  color: #FFC6C8;
-  padding-bottom: 10px;
-    }
-  .company-room-details .city p{
-    font-size: 18px;
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  color: #FFC6C8;
+  padding: 10px 50px 0 0;
 }
 
-.bath-bed{
+.company-room-details .city h2 {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #ffc6c8;
+  padding-bottom: 10px;
+}
+
+.company-room-details .city p {
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #ffc6c8;
+}
+
+.bath-bed {
   display: flex;
   padding: 20px 30px 10px 0;
   justify-content: space-between;
 }
 
-.bath h2{
+.bath h2 {
   font-size: 18px;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
-  color: #FFC6C8;
-  border: 1px solid #FFFFFF73;
+  color: #ffc6c8;
+  border: 1px solid #ffffff73;
   padding: 5px 10px;
   text-decoration: none;
   display: inline-block;
 }
 
-.bath i{
-padding-right: 10px;
-font-size: 20px;
-color: #FFC6C8;
-align-items: center;
+.bath i {
+  padding-right: 10px;
+  font-size: 20px;
+  color: #ffc6c8;
+  align-items: center;
 }
 
-.bath a{
+.bath a {
   font-size: 18px;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
-  color: #FFF;
-  border: 1px solid #FFFFFF73;
+  color: #fff;
+  border: 1px solid #ffffff73;
   padding: 5px 20px;
   text-decoration: none;
   display: inline-block;
-  background: #FFC6C8;
+  background: #ffc6c8;
 }
+
 
 /*--------------Responsive section 5th---------------------*/
 
-@media only screen and (max-width: 768px){
-
-  .container-5th{
+@media only screen and (max-width: 768px) {
+  .container-5th {
     width: 100%;
     padding: 10px;
   }
 
-  .company-details-info{
+  .company-details-info {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
 
+  .company-featured-img img,
+  .company-infor,
   .company-featured-img {
     width: 100%;
   }
-  .company-featured-img img{
-    width: 100%;
-  }
-  .company-infor{
-    width: 100%;
-  }
-  .heading h2{
+
+  .heading h2 {
     font-size: 40px;
     padding: 0 0 30px 0;
   }
 
-  .company-paragraph p{
+  .company-paragraph p {
     text-align: justify;
   }
 
-  .bath-bed{
+  .bath-bed {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -591,11 +587,11 @@ align-items: center;
     padding: 30px;
   }
 
-  .bath-bed .bath{
+  .bath-bed .bath {
     padding: 0 0 15px 0;
   }
 
-  .bath-bed .bath:last-child{
+  .bath-bed .bath:last-child {
     padding: 0;
   }
 }
