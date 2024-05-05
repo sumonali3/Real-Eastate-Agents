@@ -1,7 +1,7 @@
 /* Reset */
 * {
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -18,7 +18,9 @@
 .col-11 { width: 91.66%; }
 .col-12 { width: 100%; }
 
-
+body{
+  background: #102A8D;
+}
 /* Hero Section */
 .hero-section-container {
   width: 100%;
@@ -26,7 +28,7 @@
   background-color: rgba(0, 0, 0, .4);
   padding-top: 80px;
   position: relative;
-  overflow: hidden;
+  
 }
 
 .background-clip {
@@ -90,10 +92,10 @@
 
 .hero-section-button {
   display: flex;
-  width: 1600px;
+  width: 1140px;
   justify-content: space-between;
   text-align: center;
-  padding: 50px 0;
+  margin: auto;
 }
 
 .hero-section-button a {
@@ -112,7 +114,6 @@
 .hero-section-button i {
   padding-left: 10px;
 }
-
 .btn-hero {
   background-color: #102A8D;
 }
@@ -154,7 +155,6 @@
 /*--------------------start 2nd setopm--------------*/
 
 .container-2nd{
-  background-color: #102A8D;
   border-bottom: 1px solid #FFFFFF73;
 }
 
@@ -162,9 +162,10 @@
   width: 1140px;
   height: 300px;
   display: flex;
-  text-align: center;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
  }
 
  .responsive{
@@ -196,12 +197,6 @@
     display: block;
   }
 
-  .responsive{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 20px 0;
-  }
 
   .count-down h2{
     font-size: 50px;
@@ -211,13 +206,14 @@
 
 .container-3rd{
   background-color: #102A8D;
-  padding: 100px 100px;
+  margin: 100px auto;
 }
 
 .company-title{
   display: flex;
   width: 1100px;
   border: 1px solid #FFFFFF73;
+  margin: auto;
 
 }
 
@@ -323,7 +319,8 @@
 /*-----------end responsive---------------*/
 .container-4th{
   width: 100%;
-  background-color: #102A8D;
+  margin-bottom: 100px;
+  border: 1px solid #FFFFFF73;
   padding-bottom: 100px;
 }
 
@@ -333,6 +330,7 @@
   width: 1100px;
   padding: 20px 10px;
   border: 1px solid #FFFFFF73;
+  margin: 100px auto 0 auto;
 }
 
 .compnay-offer-details img{
@@ -421,4 +419,73 @@ padding-right: 10px;
   .company-img img{
     padding-top: 30px;
   }
+}
+
+/*-----------section 5th start------------*/
+
+.container-5th{
+  width: 1140px;
+  margin: auto;
+}
+
+.heading h2{
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #FFC6C8;
+}
+
+.heading span{
+  color: #FFC6C8B0;
+}
+
+.company-details-info{
+  display: flex;
+  width: 1140px;
+  border: 1px solid #FFFFFF73;
+}
+
+.company-featured-img{
+  padding: 10px;
+}
+
+.company-featured-img img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.company-infor{
+  padding: 10px;
+}
+
+.company-infor h3{
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #FFC6C8;
+}
+
+.heading-real h2{
+  font-size: 35px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #FFC6C8;
+  padding: 10px 0;
+  line-height: 1.3em;
+}
+
+.company-paragraph p{
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #FFC6C8;
+  padding: 10px 0;
+  line-height: 1.3em;
+}
+
+.company-room-details{
+  display: flex;
+  
+  
 }
