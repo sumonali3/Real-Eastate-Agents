@@ -185,7 +185,6 @@ body{
     text-align: center;
     justify-content: space-around;
   }
-
 /*---------------close 2nd section -------------*/
 /*-----------------2nd section responsive------------*/
 @media only screen and (max-width: 768px){
@@ -193,6 +192,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     text-align: center;
   }
 
