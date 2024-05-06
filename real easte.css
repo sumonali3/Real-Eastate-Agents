@@ -432,6 +432,7 @@ padding-right: 10px;
 .container-5th {
   width: 1300px;
   margin: auto;
+ padding-bottom: 100px;
 }
 
 .heading h2 {
@@ -612,3 +613,122 @@ padding-right: 10px;
 
 /*-------------------Real estate listing 6th part-----------------*/
 
+.container-6th{
+  width: 1300px;
+  margin: auto;
+}
+.control-listing{
+  display: flex;
+  margin-bottom: 20px;
+ }
+
+.post-listing{
+  background: #FAD6D5;
+  padding: 20px;
+  box-shadow: 0 0 15px;
+  margin-right: 20px;
+}
+
+.post-listing:last-child{
+  margin-right: 0;
+}
+
+.listing-image img{
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.listing-heading h2{
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  color: #102A8D;
+  line-height: 1.3em;
+}
+
+.listing-city-controls{
+  display: flex;
+  justify-content: space-between;
+}
+
+.state{
+  padding: 10px 0;
+}
+
+.state, .sell h3{
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #102A8D;
+}
+
+.state, .sell p{
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  color: #102A8D;
+}
+
+.listing-sell-controls{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.listing-bath{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.bath{
+  border: 1px solid #102A8D;
+  padding: 5px 20px;
+}
+
+.bath i{
+  padding-right: 10px;
+  font-size: 25px;
+  color: #102A8D;
+}
+.listing-bath p{
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+  color: #102A8D;
+}
+.listing-button{
+  text-align: center;
+}
+
+.listing-button a{
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  background-color: #102A8D;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+/*----------------responsive---------------*/
+@media only screen and (max-width: 768px) {
+  .container-6th{
+    width: 100%;
+  }
+
+  .control-listing{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+   }
+
+   .post-listing{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .listing-heading h2{
+    font-size: 23px;
+  }
+}
