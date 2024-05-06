@@ -728,6 +728,10 @@ padding-right: 10px;
     margin-bottom: 20px;
   }
 
+  .post-listing:last-child{
+  margin-bottom: 0;
+}
+
   .listing-heading h2{
     font-size: 23px;
   }
