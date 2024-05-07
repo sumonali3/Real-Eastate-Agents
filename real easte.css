@@ -205,12 +205,14 @@ body{
 .container-3rd{
   background-color: #102A8D;
   padding: 100px 100px;
+  
 }
 
 .company-title{
   display: flex;
-  width: 1100px;
+  width: 1300px;
   border: 1px solid #FFFFFF73;
+  margin: auto;
 
 }
 
@@ -240,7 +242,8 @@ body{
   padding-bottom: 20px;
 }
 
-.company-2nd input{
+.company-2nd input, 
+.containt-7th input{
   font-size: 20px;
   font-family: "Oswald", sans-serif;
   background: transparent;
@@ -572,6 +575,7 @@ padding-right: 10px;
     width: 100%;
   }
 
+
   .heading-real h2 {
     font-size: 30px;
     text-align: justify;
@@ -736,3 +740,27 @@ padding-right: 10px;
   }
 }
 
+/*--------------image hover section----------------*/
+.outer{
+  position: relative;
+}
+
+.outer img, .inner img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.inner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all .7s ease-in-out;
+}
+
+.outer:hover .inner{
+  opacity: 1;
+
+}
+
+/*-----------------section 7th------------*/
