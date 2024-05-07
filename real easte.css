@@ -204,14 +204,13 @@ body{
 
 .container-3rd{
   background-color: #102A8D;
-  margin: 100px auto;
+  padding: 100px 100px;
 }
 
 .company-title{
   display: flex;
   width: 1100px;
   border: 1px solid #FFFFFF73;
-  margin: auto;
 
 }
 
@@ -221,7 +220,7 @@ body{
 
 .company-details h2{
   font-size: 100px;
-  color: #FFC6C8;
+  color: #FFF;
   font-family: "Oswald", sans-serif;
 }
 
@@ -241,7 +240,7 @@ body{
   padding-bottom: 20px;
 }
 
-.company-2nd, .button-7th-part input{
+.company-2nd input{
   font-size: 20px;
   font-family: "Oswald", sans-serif;
   background: transparent;
