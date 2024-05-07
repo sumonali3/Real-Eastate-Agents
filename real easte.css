@@ -720,8 +720,7 @@ padding-right: 10px;
   .control-listing{
     display: flex;
     flex-direction: column;
-    padding: 0 10px;
-    margin-bottom: 0;
+    padding: 10px;
    }
 
      .post-listing{
@@ -729,117 +728,11 @@ padding-right: 10px;
     margin-bottom: 20px;
   }
 
+  .post-listing:last-child{
+  margin-bottom: 0;
+}
+
   .listing-heading h2{
     font-size: 23px;
-  }
-}
-
-/*------------------section 7th ----------------*/
-
-.container-7th{
-  width: 100%;
-   border-top: 1px solid #ffffff73;
-  border-bottom: 1px solid #ffffff73;
-  padding: 100px 0;
-}
-
-.wrapper-7th{
-  width: 1300px;
-  margin: auto;
-  text-align: center;
-}
-
-.services-part-heading h3{
-  font-size: 20px;
-  color: #FFC6C8;
-  font-family: "Oswald", sans-serif;
-}
-
-.services-part-main-heading h2{
-  font-size: 50px;
-  color: #FFC6C8;
-  padding-bottom: 20px;
-  font-family: "Oswald", sans-serif;
-}
-
-.bg-container-7th-part{
-  display: flex;
-  justify-content: space-around;
-  min-height: 300px;
-  align-items: center;
- margin: 20px;
-  position: relative;
- 
-}
-
-.all-services-btn{
-  margin-bottom: 50px;
-}
-
-.bg-container-7th-part::after{
-  content: " ";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.55);
-  background: url(Image/House\ 5.webp) no-repeat center;
-  background-size: cover;
-  z-index: -1;
-  opacity: 0.4;
-  
-}
-
-.bg-7thpart-button a{
-  text-decoration: none;
-  font-size: 25px;
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  color: #fff;
-  background-color: #102A8D;
-  padding: 5px 20px;
-  text-align: center;
-}
-
-.bg-heading, .bg-2nd-heading h2{
-  font-size: 50px;
-  font-family: "Oswald", sans-serif;
-  color: #FFC6C8;
-}
-
-.bg-2nd-heading {
-  padding: 5px 30px;
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-}
-
-@media only screen and (max-width: 768px) {
-
-  .container-7th{
-    width: 100%;
-    padding-top: 50px;
-  }
-
-  .wrapper-7th{
-    width: 100%
-  }
-
-  .bg-container-7th-part{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-      
-  }
-
-  .bg-heading, .bg-2nd-heading h2{
-    font-size: 30px;
-    font-family: "Oswald", sans-serif;
-    color: #FFC6C8;
-  }
-
-  .services-part-main-heading h2{
-    font-size: 30px;
   }
 }
