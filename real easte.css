@@ -887,6 +887,7 @@ font-family: "Oswald", sans-serif;
     justify-content: space-around;
     text-align: center;
     align-items: center;
+    padding: 0 10px;
   }
 
   .containt-7th h2{
