@@ -764,3 +764,83 @@ padding-right: 10px;
 }
 
 /*-----------------section 7th------------*/
+
+.wrapper-7th{
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.containt-7th h2, h3{
+  font-size: 20px;
+  color: #FFC6C8;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.containt-7th h2{
+  font-size: 50px;
+  line-height: 1.3em;
+  padding: 20px 0;
+}
+
+.containt-7th {
+  text-align: center;
+}
+
+.bg-img{
+  position: relative;
+  min-height: 300px;
+  background: url(Image/House\ 4.webp) no-repeat center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.bg-img::before{
+  content: ' ';
+  width: 100%;
+  min-height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+ 
+}
+
+.containt-bg{
+display: flex;
+min-height: 300px;
+justify-content: space-around;
+text-align: center;
+align-items: center;
+}
+
+.containt-bg h2{
+  font-size: 50px;
+  color: #FFC6C8;
+  font-family: "Oswald", sans-serif;
+}
+
+.containt-bg a{
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+  border: 1px solid #ffffff73;
+  padding: 5px 20px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #102A8D;
+}
+
+.home-by{
+display: inline-block;
+padding: 5px 20px;
+font-size: 18px;
+background: rgba(255, 255, 255, 0.2);
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+text-transform: uppercase;
+color: #FFC6C8;
+font-family: "Oswald", sans-serif;
+}
