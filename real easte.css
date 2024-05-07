@@ -828,7 +828,7 @@ min-height: 300px;
 justify-content: space-around;
 text-align: center;
 align-items: center;
-background-color: rgba(0, 0, 0, 0.5);
+background-color: rgba(0, 0, 0, 0.57);
 }
 
 .containt-bg h2{
@@ -884,6 +884,9 @@ font-family: "Oswald", sans-serif;
   .containt-bg{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
   }
 
   .containt-7th h2{
