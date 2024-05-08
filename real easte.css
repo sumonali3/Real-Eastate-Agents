@@ -243,6 +243,7 @@ body{
 }
 
 .company-2nd input, 
+.agents-btn input,
 .containt-7th input{
   font-size: 20px;
   font-family: "Oswald", sans-serif;
@@ -250,6 +251,7 @@ body{
   color: #fff;
   border: 1px solid #FFFFFF73;
   padding: 5px 20px;
+  cursor: pointer;
 }
 
 /*------------end section 3------------*/
@@ -786,7 +788,6 @@ padding-right: 10px;
 .containt-7th h2{
   font-size: 50px;
   line-height: 1.3em;
-  padding: 20px 0;
 }
 
 .containt-7th {
@@ -822,6 +823,11 @@ padding-right: 10px;
   margin-bottom: 0;
 }
 
+.containt-7th input{
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
 .containt-bg{
 display: flex;
 min-height: 300px;
@@ -848,6 +854,7 @@ background-color: rgba(0, 0, 0, 0.5);
   text-decoration: none;
   display: inline-block;
   background-color: #102A8D;
+  text-transform: uppercase;
 }
 
 .home-by{
@@ -873,7 +880,7 @@ font-family: "Oswald", sans-serif;
   
 
   .containt-bg h2{
-    font-size: 35px;
+    font-size: 40px;
     color: #FFC6C8;
     font-family: "Oswald", sans-serif;
     line-height: 1.3em;
@@ -884,9 +891,103 @@ font-family: "Oswald", sans-serif;
   .containt-bg{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 0 10px;
   }
 
   .containt-7th h2{
     font-size: 30px;
+  }
+}
+
+/*------------------8th section start-------------*/
+
+.container-8th {
+  margin: 100px 0;
+}
+
+.wrapper-8th {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.agents-headding {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.agents-details {
+  display: flex;
+}
+
+.agents-clients-details {
+  padding: 15px;
+  background-color: #102A8D;
+  box-shadow: 0 0 10px;
+  margin-right: 20px;
+}
+
+.agents-clients-details:last-child {
+  margin-right: 0;
+}
+
+.agents-clients-details img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.agents-clients-details h2 {
+  font-size: 25px;
+  color: #FFF;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
+.agents-title {
+  font-size: 20px !important;
+  font-weight: 300 !important;
+  padding: 10px 0;
+}
+
+.agents-clients-details p {
+  font-size: 16px;
+  color: #FFF;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.4em;
+  font-weight: 300;
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  height: 70px;
+}
+
+.agents-btn {
+  text-align: center;
+  padding: 20px 0;
+}
+
+@media only screen and (max-width: 768px){
+
+  .wrapper-8th {
+    width: 100%
+  }
+
+  .agents-details {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .agents-clients-details {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .agents-clients-details:last-child{
+    margin-bottom: 0;
   }
 }
