@@ -194,6 +194,12 @@ body{
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    margin-bottom: 50px;
+  }
+
+
+  .coun-down p{
+    font-size: 16px;
   }
 
   .coun-down h2{
@@ -269,8 +275,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: start;
+    margin: 0 10px;
   }
-
+.company-2nd p{
+  line-height: 1.4em;
+}
   .company-details{
     padding: 10px;
     width: 100%;
@@ -539,7 +548,7 @@ padding-right: 10px;
 
 .bath i {
   padding-right: 10px;
-  font-size: 20px;
+  font-size: 18px;
   color: #ffc6c8;
   align-items: center;
 }
@@ -627,6 +636,10 @@ padding-right: 10px;
   margin-bottom: 20px;
  }
 
+ .heading{
+  padding-left: 10px;
+ }
+
 .post-listing{
   background: #FAD6D5;
   padding: 20px;
@@ -660,17 +673,19 @@ padding-right: 10px;
   padding: 10px 0;
 }
 
-.state, .sell h3{
+.state h3,
+.sell h3{
   font-size: 20px;
   font-family: "Oswald", sans-serif;
   font-weight: 600;
   color: #102A8D;
 }
 
-.state, .sell p{
+.state p, 
+.sell p{
   font-size: 18px;
   font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   color: #102A8D;
 }
 
@@ -720,6 +735,7 @@ padding-right: 10px;
 @media only screen and (max-width: 768px) {
   .container-6th{
     width: 100%;
+    margin: 50px 0;
   }
 
   .control-listing{
@@ -875,6 +891,10 @@ font-family: "Oswald", sans-serif;
   }
 
   .container-7th{
+    padding: 40px 0;
+  }
+
+  .container-7th{
     padding: 50px 0;
   }
   
@@ -973,7 +993,8 @@ font-family: "Oswald", sans-serif;
 @media only screen and (max-width: 768px){
 
   .wrapper-8th {
-    width: 100%
+    width: 100%;
+    margin: 50px 0;
   }
 
   .agents-details {
@@ -986,6 +1007,9 @@ font-family: "Oswald", sans-serif;
     width: 100%;
   }
   
+  .custom-real-heading h2{
+    font-size: 50px;
+  }
 
   .agents-clients-details {
     width: 100%;
@@ -997,3 +1021,26 @@ font-family: "Oswald", sans-serif;
   }
 }
 /*------------close responsive section 8th agents part--------------*/
+
+.custom-real-heading h2{
+  font-size: 105px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  padding: 30px 0;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+
+.urban-1 h2{
+  padding-bottom: 10px;
+}
+
+.urban-1 p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  height: 45px;
+}
