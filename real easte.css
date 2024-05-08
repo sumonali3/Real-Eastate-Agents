@@ -982,6 +982,11 @@ font-family: "Oswald", sans-serif;
     padding: 0 10px;
   }
 
+  .agents-clients-details img {
+    width: 100%;
+  }
+  
+
   .agents-clients-details {
     width: 100%;
     margin-bottom: 20px;
@@ -991,5 +996,4 @@ font-family: "Oswald", sans-serif;
     margin-bottom: 0;
   }
 }
-
 /*------------close responsive section 8th agents part--------------*/
