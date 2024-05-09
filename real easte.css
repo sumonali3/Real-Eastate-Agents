@@ -978,11 +978,12 @@ font-family: "Oswald", sans-serif;
   line-height: 1.4em;
   font-weight: 300;
   text-align: justify;
+  text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+  height: 45px;
   overflow: hidden;
-  height: 70px;
 }
 
 .agents-btn {
