@@ -21,6 +21,7 @@
 body{
   background: #102A8D;
 }
+
 /* Hero Section */
 .hero-section-container {
   width: 100%;
@@ -253,6 +254,7 @@ body{
 .containt-7th input{
   font-size: 20px;
   font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
   background: transparent;
   color: #fff;
   border: 1px solid #FFFFFF73;
@@ -446,6 +448,10 @@ padding-right: 10px;
   width: 1300px;
   margin: auto;
  padding-bottom: 100px;
+}
+
+.border{
+  border-top: 1px solid #ffffff73;
 }
 
 .heading h2 {
@@ -669,8 +675,9 @@ padding-right: 10px;
   justify-content: space-between;
 }
 
-.state{
+.state, .sell{
   padding: 10px 0;
+  width: 200px;
 }
 
 .state h3,
@@ -794,7 +801,7 @@ padding-right: 10px;
   margin: 0 auto;
 }
 
-.containt-7th h2, h3{
+.containt-7th h2, .containt-7th h3{
   font-size: 20px;
   color: #FFC6C8;
   font-family: "Oswald", sans-serif;
@@ -1034,6 +1041,18 @@ font-family: "Oswald", sans-serif;
 .urban-1 h2{
   padding-bottom: 10px;
 }
+.readmorebtn{
+  text-align: start;
+}
+.readmorebtn input{
+  background: rgba(255, 255, 255, 0.2);
+       border-radius: 0px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 5px 20px;
+      }
 
 .urban-1 p {
   display: -webkit-box;
@@ -1048,3 +1067,57 @@ font-family: "Oswald", sans-serif;
     font-size: 50px;
   }
 }
+
+.footer {
+  background-color: #102A8D;
+  color: #fff;
+  padding: 40px 0;
+  margin-top: 20px;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  margin: 0 15px;
+}
+
+.col h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
+.col p {
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: "Rubik", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
