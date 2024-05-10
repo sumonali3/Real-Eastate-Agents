@@ -22,6 +22,81 @@ body{
   background: #102A8D;
 }
 
+.head-nav-menu img{
+  width: 20%;
+}
+
+.menu-bar{
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+
+.nav-menu ul{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+}
+.nav-menu ul li{
+  list-style-type: none;
+  
+}
+
+.nav-menu ul li a{
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Rubik", sans-serif;
+  color:#FFF;
+  padding: 5px 15px;
+
+}
+
+.nav-menu ul li a:hover{
+  color: #FFC6C8;
+ 
+ 
+}
+
+@media only screen and (max-width: 768px){
+
+  .head-nav-menu{
+    width: 100%;
+  }
+
+  .head-nav-menu img{
+    display: none;
+  }
+
+  .menu-bar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+  }
+
+  .nav-menu ul{
+    display: flex;
+   flex-direction: column;
+   
+  }
+
+  .nav-menu ul li{
+    padding: 10px 0;
+  
+  }
+
+  .head-nav-menu{
+    width: 100%;
+  }
+  
+}
+
 /* Hero Section */
 .hero-section-container {
   width: 100%;
@@ -559,6 +634,10 @@ padding-right: 10px;
   align-items: center;
 }
 
+.bath-icon i{
+  color: #ffc6c8 !important;
+}
+
 .bath a {
   font-size: 18px;
   font-family: "Oswald", sans-serif;
@@ -1066,58 +1145,5 @@ font-family: "Oswald", sans-serif;
   .custom-real-heading h2{
     font-size: 50px;
   }
-}
-
-.footer {
-  background-color: #102A8D;
-  color: #fff;
-  padding: 40px 0;
-  margin-top: 20px;
-}
-
-.container {
-  width: 1300px;
-  margin: 0 auto;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col {
-  flex: 1;
-  margin: 0 15px;
-}
-
-.col h3 {
-  font-size: 25px;
-  margin-bottom: 20px;
-  font-family: "Oswald", sans-serif;
-  font-weight: 500;
-}
-
-.col p {
-  font-size: 16px;
-  line-height: 1.6;
-  font-family: "Rubik", sans-serif;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul li {
-  margin-bottom: 10px;
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
