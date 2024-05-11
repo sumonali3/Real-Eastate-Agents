@@ -14,21 +14,28 @@
 </head>
 <body>
 <header>
-    <nav>
-        <div class="nav-menu">
-            <input type="checkbox" id="check">
-              <label for="check" id="checkbtn">
-                <i class='bx bx-menu'></i>
-              </label>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Our Blog</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-    </nav>
+  <div class="menu-bar col-3"></div>
+    <div class="menu-bar col-6 ">
+      <ul class="sidebar">
+        <li class="hideon" onclick="hideBar()"><a href="#"><i class=" close fa-solid fa-xmark"></i></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Our Blog</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+        <ul>
+            <li class="hideonMobile"><a href="#">Home</a></li>
+            <li class="hideonMobile"><a href="#">Services</a></li>
+            <li class="hideonMobile"><a href="#">Our Blog</a></li>
+            <li class="hideonMobile"><a href="#">About Us</a></li>
+            <li class="hideonMobile"><a href="#">Contact Us</a></li>
+            <li class="hide" onclick="showSide()"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+        </ul>
+    </div>
+    <div class="menu-bar col-3">
+     
+    </div>
 </header>
 
   <!----------------------------Start Hero Section---------------------------------->
@@ -614,6 +621,17 @@
   </div>
 </section>
 <!---------------------- end the section 9th---------------->
+<script>
+  function showSide(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display =  'flex'
+  }
+  function hideBar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display =  'none'
+  }
 
+  
+</script>
 </body>
 </html>
